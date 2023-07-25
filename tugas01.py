@@ -24,6 +24,7 @@ url5 = "https://automatetheboringstuff.com"
 driver.get(url5)
 title5 = driver.title
 
+#loop
 alltitle = [title1 , title2 , title3 , title4 , title5]
 for title in alltitle:
     print(title)
